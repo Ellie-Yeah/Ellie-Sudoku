@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ellie-Sudoku/static/css/main.66553ddc.css",
+    "main.js": "/Ellie-Sudoku/static/js/main.b3c3c469.js",
+    "static/js/453.efd533f1.chunk.js": "/Ellie-Sudoku/static/js/453.efd533f1.chunk.js",
+    "index.html": "/Ellie-Sudoku/index.html",
+    "main.66553ddc.css.map": "/Ellie-Sudoku/static/css/main.66553ddc.css.map",
+    "main.b3c3c469.js.map": "/Ellie-Sudoku/static/js/main.b3c3c469.js.map",
+    "453.efd533f1.chunk.js.map": "/Ellie-Sudoku/static/js/453.efd533f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66553ddc.css",
+    "static/js/main.b3c3c469.js"
+  ]
+}
