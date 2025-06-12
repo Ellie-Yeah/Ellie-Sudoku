@@ -1,38 +1,67 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  /* Faz com que ocupe toda a altura da página */
+  margin: 20px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.board {
+  display: grid;
+  grid-template-columns: repeat(9, 3rem);
+  /* Cada célula tem largura de 3rem */
+  grid-template-rows: repeat(9, 3rem);
+  /* Cada célula tem altura de 3rem */
+  gap: 0.2rem;
+  border: 2px solid black;
+  /* Outer border */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: contents;
+}
+
+.cell {
+  width: 3rem;
+  /* Define largura */
+  height: 3rem;
+  /* Define altura igual à largura */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* Centraliza horizontalmente */
+  align-items: center;
+  /* Centraliza verticalmente */
+  font-size: 1.5rem;
+  /* Ajuste do tamanho da fonte */
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.cell:focus {
+  outline: none;
+  border: 2px solid#00f
+}
+
+.cell:nth-child(3n) {
+  border-right: 3px solid black;
+  /* Right border for 3x3 blocks */
+}
+
+.cell:nth-child(3n + 1) {
+  border-left: 3px solid black;
+  /* Left border for 3x3 blocks */
+}
+
+.row:nth-child(3n) .cell {
+  border-bottom: 3px solid black;
+  /* Bottom border for 3x3 blocks */
+}
+
+.row:nth-child(3n + 1) .cell {
+  border-top: 3px solid black;
+  /* Top border for 3x3 blocks */
 }

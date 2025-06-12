@@ -1,0 +1,9 @@
+fazer o sudoku:
+https://deepcore.hashnode.dev/step-by-step-guide-to-building-a-sudoku-game-with-reactjs
+
+lógica para validar o jogo:
+https://dev.to/kaxmoglan/valid-sudoku-solution-in-js-gne
+
+lógica para gerar jogos randomizados:
+https://www.geeksforgeeks.org/dsa/program-sudoku-generator/
+
