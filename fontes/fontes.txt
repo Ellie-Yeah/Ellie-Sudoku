@@ -7,3 +7,8 @@ https://dev.to/kaxmoglan/valid-sudoku-solution-in-js-gne
 lógica para gerar jogos randomizados:
 https://www.geeksforgeeks.org/dsa/program-sudoku-generator/
 
+
+alojar a app react no github e coloca-la num site estático:
+https://medium.com/@PatrickOjiambo/how-to-host-a-static-react-app-on-github-pages-eec3d8df64a6
+
+
